@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 56px;
+  padding-right: 90px;
+}
+.header__menu ul a {
+  text-decoration: none;
+  color: #95969C;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.header__menu ul a:hover {
+  color: white;
+}
+
+.container {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.hero {
+  padding-top: 110px;
+  display: flex;
+}
+.hero__content {
+  padding-top: 40px;
+}
+.hero__content__title {
+  font-family: "Merriweather", serif;
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  width: 80%;
+}
+.hero__content__subtitle {
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #95969C;
+  width: 75%;
+  font-size: 24px;
+}
+.hero__content__buttons {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding-top: 30px;
+}
+.hero__content__buttons a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.hero__content__buttons .start_button {
+  padding: 10px 50px;
+  border-radius: 10px 10px 10px 0px;
+  background-color: #DB2A6B;
+  font-weight: 200;
+}
+.hero__content__buttons .start_button:hover {
+  background-color: #b90044;
+}
+.hero__content__buttons .learn_button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: underline;
+}
+.hero__content__buttons .learn_button:hover {
+  text-decoration: none;
+}
+.hero__imgs {
+  display: grid;
+  grid-template-columns: repeat(3, fit-content(100%));
+  grid-template-rows: auto;
+  gap: 10px;
+}
+.hero__imgs-1 {
+  grid-area: 1/1/4/1;
+}
+.hero__imgs-2 {
+  grid-area: 4/1/6/1;
+}
+.hero__imgs-3 {
+  grid-area: 1/2/3/2;
+}
+.hero__imgs-4 {
+  grid-area: 3/2/6/2;
+}
+.hero__imgs-5 {
+  grid-area: 2/3/5/3;
+}
+
+.information {
+  width: max-content;
+  display: flex;
+  gap: 40px;
+  padding-top: 30px;
+}
+.information__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.information__text {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  width: max-content;
+}
+
+body {
+  background-color: #2B2D38;
+  padding-bottom: 70px;
+  background-image: url("../../img/background_image.svg");
+  background-repeat: no-repeat;
+  background-position: bottom -300px right -250px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=main.css.map */
