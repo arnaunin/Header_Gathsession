@@ -1,0 +1,10 @@
+@use '../abstracts/variables' as *;
+
+body {
+    background-color: $bg-color;
+    padding-bottom: 70px;
+
+    background-image: url('../../img/background_image.svg');
+    background-repeat: no-repeat;
+    background-position: bottom -300px right -250px;
+}

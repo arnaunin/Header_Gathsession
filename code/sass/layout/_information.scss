@@ -1,0 +1,21 @@
+@use '../abstracts/variables' as *;
+
+.information {
+    width: max-content;
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 10px;    }
+
+    &__text {
+        font-family: $poppins-font;;
+        color: white;
+        font-size: 18px;
+        font-weight: bolder;
+        width: max-content;
+    }
+}
